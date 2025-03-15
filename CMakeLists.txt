@@ -7,6 +7,8 @@ project(
   LANGUAGES CXX
 )
 
+include(cmake/dependencies.cmake)
+
 add_subdirectory(src)
 
 include(CTest)
