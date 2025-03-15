@@ -15,12 +15,12 @@ add_executable(tests
   test_adder.cc
 )
 
+set_target_defaults(tests)
+
 target_link_libraries(tests PRIVATE
   game_lib
   GTest::gtest_main
 )
-
-set_target_defaults(tests)
 
 add_test(NAME AdderTest COMMAND tests)
 add_test(NAME PrinterTest COMMAND tests)

@@ -4,8 +4,8 @@ add_executable(game
   main.cc
 )
 
+set_target_defaults(game)
+
 target_link_libraries(game PRIVATE
   game_lib
 )
-
-set_target_defaults(game)
