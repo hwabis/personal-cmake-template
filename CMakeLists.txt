@@ -1,0 +1,10 @@
+# A good learning resource: https://cliutils.gitlab.io/modern-cmake/README.html
+
+cmake_minimum_required(VERSION 3.17)
+
+project(
+  Awesomeness
+  LANGUAGES CXX
+)
+
+add_subdirectory(src)
