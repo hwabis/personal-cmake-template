@@ -1,7 +1,6 @@
 #include "printer.hh"
 
 #include <gtest/gtest.h>
-#include <sstream>
 
 TEST(PrinterTest, PrintsCorrectly)
 {
