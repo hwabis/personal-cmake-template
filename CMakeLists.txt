@@ -8,3 +8,7 @@ project(
 )
 
 add_subdirectory(src)
+
+include(CTest)
+enable_testing()  
+add_subdirectory(tests)
