@@ -1,7 +1,8 @@
 #include "printer.hh"
 #include <iostream>
 
-void Printer::Print(std::string message)
+void Printer::Print(const std::string &message)
 {
     std::cout << message << "\n";
+    PrintCount_++;
 }
