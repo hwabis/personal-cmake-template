@@ -11,8 +11,8 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 add_executable(tests
-  test_printer.cc
   test_adder.cc
+  test_printer.cc
 )
 
 set_target_defaults(tests)
