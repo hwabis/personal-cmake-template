@@ -2,6 +2,6 @@
 
 class Adder
 {
-public:
+  public:
     int Add(int a, int b);
 };

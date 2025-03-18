@@ -1,5 +1,4 @@
 #include "adder.hh"
-
 #include <gtest/gtest.h>
 
 TEST(AdderTest, BasicAddition)

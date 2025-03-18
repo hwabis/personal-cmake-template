@@ -1,5 +1,4 @@
 #include "printer.hh"
-
 #include <gtest/gtest.h>
 
 TEST(PrinterTest, PrintsCorrectly)
