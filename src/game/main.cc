@@ -1,6 +1,6 @@
-#include <iostream>
 #include "adder.hh"
 #include "printer.hh"
+#include <iostream>
 
 int main()
 {

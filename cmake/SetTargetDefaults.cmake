@@ -7,6 +7,7 @@ function(set_target_defaults target)
   )
 
   # cppcheck and clang-tidy don't automatically integrate into visual studio ❓🤔❓
+  # but in visual studio you can turn on clang-tidy in project properties...
 
   if (MSVC)
     target_compile_options(${target} PRIVATE
