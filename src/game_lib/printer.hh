@@ -6,5 +6,5 @@ class Printer
 {
 public:
     void Print(const std::string &message);
-    int PrintCount_ = 0;
+    int PrintCount = 0;
 };

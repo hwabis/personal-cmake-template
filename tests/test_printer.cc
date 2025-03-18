@@ -5,7 +5,7 @@
 TEST(PrinterTest, PrintsCorrectly)
 {
     Printer p;
-    EXPECT_EQ(p.PrintCount_, 0);
+    EXPECT_EQ(p.PrintCount, 0);
     p.Print("henlo");
-    EXPECT_EQ(p.PrintCount_, 1);
+    EXPECT_EQ(p.PrintCount, 1);
 }
