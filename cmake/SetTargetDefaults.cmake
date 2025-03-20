@@ -3,7 +3,6 @@ function(set_target_defaults target)
     LINKER_LANGUAGE CXX
     CXX_STANDARD 20
     CXX_STANDARD_REQUIRED ON
-    COMPILE_WARNING_AS_ERROR ON
   )
 
   if (MSVC)

@@ -1,7 +1,6 @@
 include(FetchContent)
 
-# SDL doesn't work out of the box (at runtime you have to manually copy SDL3.dll to the executable folder)
-# but this file is still provided as a template for adding more dependencies.
+# todo: SDL doesn't work out of the box (at runtime you have to manually copy SDL3.dll to every target that needs it)
 
 FetchContent_Declare(
   SDL3
