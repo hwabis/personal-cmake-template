@@ -7,6 +7,8 @@ function(set_target_defaults target)
 
   if (MSVC)
     target_compile_options(${target} PRIVATE
+      # todo: in visual studio you still have to manually set project properties:
+      # code analysis and clang-tidy on
       /Wall
       /analyze
       /external:anglebrackets
