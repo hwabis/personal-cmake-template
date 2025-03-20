@@ -1,6 +1,3 @@
-# todo: in MSVC gtest is compiling with warnings, in the test projects themselves.
-# you'll just have to ignore those warnings ☹️
-
 include(FetchContent)
 
 FetchContent_Declare(
@@ -11,4 +8,4 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(googletest)
 
-add_subdirectory(game_lib)
+add_subdirectory(game_lib_tests)
