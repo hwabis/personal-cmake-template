@@ -22,7 +22,7 @@ class B : public A
     }
 };
 
-// Intentionally fail the build here to check code analysis is working.
+// Intentionally create warnings here to check code analysis is working.
 // To fix, change the arg to &
 static void Do(A a)
 {
