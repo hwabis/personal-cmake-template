@@ -6,14 +6,13 @@ function(set_target_defaults target)
     COMPILE_WARNING_AS_ERROR ON
   )
 
-  # cppcheck and clang-tidy don't automatically integrate into visual studio ❓🤔❓
-  # but in visual studio you can turn on clang-tidy in project properties...
-
   if (MSVC)
     target_compile_options(${target} PRIVATE
-      /W4
-      /permissive-
+      /Wall
+      /analyze
+      /external:anglebrackets
+      /external:W0
     )
   endif()
-  # todo: gcc, etc.
+  # todo: g++ and stuff with clang-tidy
 endfunction()

@@ -1,5 +1,5 @@
 #include "adder.hh"
-#include <SDL3/sdl.h>
+#include <SDL3/SDL.h>
 
 int Adder::Add(int a, int b)
 {
