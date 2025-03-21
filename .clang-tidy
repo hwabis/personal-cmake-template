@@ -1,0 +1,7 @@
+Checks: '-checks=-*,modernize-*,-modernize-use-trailing-return-type'
+WarningsAsErrors: ''
+HeaderFilterRegex: '^src/.*'
+ExtraArgs: [
+    '-Wno-c++98-compat',
+    '-Wno-pragma-once-outside-header', # https://github.com/mitaki28/vscode-clang/issues/53
+]

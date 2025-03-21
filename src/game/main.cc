@@ -2,7 +2,8 @@
 #include "printer.hh"
 #include <iostream>
 
-// If code analysis is working properly, this file emits at least 4 unique warnings
+// If set up properly, clang-tidy emits 4 warnings from this file.
+// Try fixing them all!
 
 class A
 {
