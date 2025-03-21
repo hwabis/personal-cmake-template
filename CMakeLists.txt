@@ -1,5 +1,3 @@
-# If using MSVC, remember to enable code analysis and clang-tidy in Visual Studio
-
 cmake_minimum_required(VERSION 3.24)
 
 project(

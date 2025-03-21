@@ -2,6 +2,8 @@
 #include "printer.hh"
 #include <iostream>
 
+// If code analysis is working properly, this file emits at least 4 unique warnings
+
 class A
 {
   public:
@@ -22,8 +24,6 @@ class B : public A
     }
 };
 
-// Intentionally create warnings here to check code analysis is working.
-// To fix, change the arg to &
 static void Do(A a)
 {
     a.DoStuff();
