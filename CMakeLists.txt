@@ -1,4 +1,4 @@
-# A good learning resource: https://cliutils.gitlab.io/modern-cmake/README.html
+# If using MSVC, remember to enable code analysis and clang-tidy in Visual Studio
 
 cmake_minimum_required(VERSION 3.24)
 
