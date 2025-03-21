@@ -1,3 +1,5 @@
+# todo: there are still gtest warnings in the test projects you will just need to ignore :(
+
 include(FetchContent)
 
 FetchContent_Declare(
