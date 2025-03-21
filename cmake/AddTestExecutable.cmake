@@ -8,7 +8,7 @@ function(add_test_executable target test_lib)
   target_include_directories(${target} SYSTEM PRIVATE
     "${googletest_SOURCE_DIR}/include"
   )
-  
+
   target_link_libraries(${target} PRIVATE
     ${test_lib}
     GTest::gtest_main
